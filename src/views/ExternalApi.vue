@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="callApi">Call</button>
+    <button @click="callApi" class="btn btn-outline-primary btn-block">Call API</button>
     <p>{{ apiMessage }}</p>
   </div>
 </template>

@@ -25,6 +25,9 @@
                         <li class="nav-item">
                             <router-link v-if="$auth.isAuthenticated" to="/profile" class="nav-link active">Profile</router-link>
                         </li>
+                        <li class="nav-item">
+                            <router-link to="/external-api" class="nav-link active">External Api</router-link>
+                        </li>
                     </ul>
                     <ul class="navbar-nav d-flex">
                         <li class="nav-item" v-if="$auth.isAuthenticated">
