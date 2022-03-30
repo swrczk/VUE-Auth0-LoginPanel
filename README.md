@@ -1,4 +1,6 @@
-# login-panel
+# Auth0 Login panel
+
+Component created as part of diploma thesis (2020).
 
 ## Project setup
 ```
